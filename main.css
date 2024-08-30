@@ -1,0 +1,490 @@
+.main {
+    grid-column: 1;
+    padding-left: 40px;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    background-color: black;
+    border-style: outset;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right-width: 0.2px;
+    border-right-color: rgb(150, 148, 148);
+}
+.main::-webkit-scrollbar {
+    display: none;
+}
+.main-header{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 1fr;
+    position: fixed;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.2); /* White background with 20% opacity */
+    backdrop-filter: blur(10px); /* Apply a 10px blur to the background */
+    -webkit-backdrop-filter: blur(10px); 
+    border-style: outset;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-width: 0.1px;
+    border-bottom-color: rgb(150, 148, 148);
+}
+.main-header-fy , .main-header-following{
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}
+.fy-div{
+    border-style: outset;
+    border-bottom-color: rgb(7, 158, 209);
+    border-bottom-width: 6px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.main-content{
+    margin-top: 90px;
+}
+.make-tweet{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex: 77px 1fr;
+    padding: 0px 16px;
+}
+.make-tweet-pfp{
+    padding-top: 12px ;
+    height: 77px;
+}
+.make-tweet-content-div{
+    flex: 1;
+    padding-top: 4px;
+  
+}
+.make-tweet-container{
+  border-style: outset;
+    border-bottom-color: rgb(150, 148, 148);
+    border-bottom-width: 0.1px;  border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.make-tweet-content{
+    display: flex;
+    flex-direction: column;
+}
+.make-tweet-pfp{
+    height: auto;
+    width:auto ;
+}
+.make-tweet-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 9px;
+}
+.make-tweet-text{
+     font-size: 30px;
+    font-family: Arial;
+    font-weight: 400;
+    color: rgb(150, 148, 148);
+    padding-top: 24px;
+    padding-bottom: 35px;
+    margin-top: 0px;
+}
+.make-tweet-text p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bottom-icons-img{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.bottom-button button{
+     font-size: 24px;
+    font-family: "Kanit";
+    font-weight: 500;
+    color: rgb(180, 180, 180);
+    background-color: rgba(0, 91, 151, 0.8); 
+    border-radius: 30px;
+    border: none;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.bottom-button{
+    margin-bottom: 5px;
+}
+.post-container{
+    display: flex;
+    flex-direction: row;
+    color: rgb(230, 230, 230);
+    border-style: outset;
+    border-bottom-color: rgb(150, 148, 148);
+    border-bottom-width: 0.2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+.post-container:hover:not(.content-img) {
+    background-color: rgba(11, 11, 11, 0.9); /* Background color on hover */
+}
+.catpost-img{
+    display: block;
+    pointer-events: none;
+}
+.post-pfp{
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.post-pfp img{
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+}
+.post-flex2{
+    flex: 1;
+}
+.post-username{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.post-username img{
+    height: 20px;
+    width: 26px;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-right: 2px;
+    padding-left: 0px;
+}
+.post-username-container{
+    margin: 0px;    
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.post-username p{
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+}
+.name{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 600;
+    padding-right: 6px;
+}
+.id{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 300px;
+    color: rgb(111, 111, 111);
+}
+.content-text p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif; 
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.content-img{
+    padding-bottom: 20px;
+}
+
+.catpost-img{
+    border-radius: 10px;
+    height: 800px;
+    width: 660px;
+}
+.chutanya_post{
+    width: 730px;
+    height: 800px;
+    border-radius: 10px;
+}
+.asus_post{
+    width: 700px;
+    height: 800px;
+    border-radius: 10px;
+}
+.panics_post{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+}
+.post-bottom-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1fr 1fr 1fr 1fr 1fr;
+}
+.icons{
+    display: flex;
+    position: relative;
+}
+.icons img{
+    filter: invert(70%) grayscale(90%);
+    height: 24px;
+    width: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.icons p{
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: rgb(111, 111, 111);
+    font-family: "Inter", sans-serif;
+    font-family: 400;
+    font-size: 20px;
+}
+.icons:hover .likes {
+    color: rgb(249, 54, 149); /* Example: Change text color on hover */
+    filter: brightness(1.2); /* Example: Brighten the icon on hover */
+}
+.likes-icon::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background-color: rgba(241, 30, 146, 0.5); /* Transparent red color */
+    border-radius: 50%;
+    color: rgb(249, 54, 149);
+    z-index: -1; /* Place the circle behind the icon */
+    transition: width 0.1s ease, height 0.1s ease; /* Smooth transition */
+}
+.likes-icon:hover::before {
+    width: 50px; /* Adjust the size of the circle */
+    height: 50px;
+    color: rgb(249, 54, 149);
+}
+.likes-icon{
+    z-index: 1; /* Ensure the icon stays above the circle */
+}
+.comment-icon{
+    padding-left: 0px;
+    display: flex;
+}
+.comment-icon img{
+    padding-left: 0px;
+}
+.icons:hover .cmt{
+    color: rgb(54, 155, 249); /* Example: Change text color on hover */
+    filter: brightness(1.2); /* Example: Brighten the icon on hover */
+}
+.comment-icon::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background-color: rgba(30, 227, 241, 0.5); /* Transparent red color */
+    border-radius: 50%;
+    color: rgb(54, 155, 249);
+    z-index: -1; /* Place the circle behind the icon */
+    transition: width 0.1s ease, height 0.1s ease; /* Smooth transition */
+}
+.comment-icon:hover::before {
+    width: 50px; /* Adjust the size of the circle */
+    height: 50px;
+    color: rgb(54, 174, 249);
+}
+.comment-icon{
+    z-index: 1; /* Ensure the icon stays above the circle */
+}
+.icons:hover .retweet{
+    color: rgba(54, 249, 83, 0.926); /* Example: Change text color on hover */
+    filter: brightness(1.2); /* Example: Brighten the icon on hover */
+}
+.retweet-icon::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background-color: rgba(27, 237, 38, 0.544); /* Transparent red color */
+    border-radius: 50%;
+    color: rgb(59, 252, 41);
+    z-index: -1; /* Place the circle behind the icon */
+    transition: width 0.1s ease, height 0.1s ease; /* Smooth transition */
+}
+.retweet-icon:hover::before {
+    width: 50px; /* Adjust the size of the circle */
+    height: 50px;
+    color: rgba(54, 249, 77, 0.863);
+}
+.retweet-icon,.bookmark-icon,  .share-icon{
+    z-index: 1; /* Ensure the icon stays above the circle */
+}
+
+.bookmark-icon:hover::before, .share-icon:hover::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the pseudo-element a circle */
+    background-color: rgba(30, 227, 241, 0.5); /* Transparent red color */
+    z-index: -1; /* Ensure the circle appears behind the icon */
+}
+.bookmark-icon:hover::before{
+ content: "";
+    position: absolute;
+    top: 45%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the pseudo-element a circle */
+    background-color: rgba(30, 227, 241, 0.5); /* Transparent red color */
+    z-index: -1;
+    cursor: pointer;
+}
+.name:hover {
+    text-decoration: underline;
+}
+.user-tooltip{
+    visibility: hidden;
+    box-shadow: blue;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    left: 90px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+    padding-left: 12px;
+    z-index: 10;
+    opacity: 0.7;
+    transform: translateX(-50%);
+    cursor: pointer; 
+    transition: opacity 0.3s ease-in-out;
+}
+.post-username:hover .user-tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+.tooltip-image-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tooltip-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.tooltip-button button{
+    font-size: 24px;
+    font-family: "Kanit";
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(20, 20, 20, 0.8); 
+    border-radius: 30px;
+    border: none;
+    margin-top: 14px;
+    margin-left: 20px;
+    margin-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.tooltip-bio-row{
+    display: flex;
+    flex-direction: row;
+}
+.bio{
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+}
+.tooltip-username{
+    font-size: 24px;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+   
+}
+.tooltip-username p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.tooltip-userid{
+    font-size: 18px;
+    color: rgb(111, 111, 111);
+    font-family: Arial;
+    font-weight: 400;
+}
+.tooltip-userid p{
+ margin-top: 0px;
+    padding-top: 4px;
+}
+.tooltip-bio-row{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.tooltip-followers{
+    display: flex;
+    flex-direction: row;
+}
+.tooltip-followers p{
+    font-size: 18px;
+    font-family: Arial;
+    color: rgb(111, 111, 111);
+    padding-right: 15px;
+}
+.tooltip-followers p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tooltip-followers-span{
+    color: white;
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.bottom-row-text{
+    margin-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    color: rgb(111, 111, 111);
+    font-family: Arial;
+    font-size: 18px;
+    display: flex;
+    width: 350px;
+}

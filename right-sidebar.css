@@ -1,0 +1,304 @@
+.right-sidebar::before {
+    content: "";
+    display: block;
+    height: 100%;
+}
+
+.right-sidebar-content{
+    border: outset;
+    border-color: black;
+    margin-top: 95px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -100;
+    overflow-y: auto;
+    height: calc(100vh - 40px); /* Adjust height to account for padding */
+    width: 500px;
+    background-color: black;
+    border-left: none;
+    border-top: none;
+    padding-bottom: 130px;
+    padding-left: 30px;
+}
+.search-bar{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 3000px;
+    align-items: center;
+    background-color: black;
+    padding-top: 5px;
+}
+.right-side-search-bar{
+    height: 64px;
+    background-color: rgb(40, 40, 40);
+    border-radius: 40px;
+    border:none;
+    padding-left: 100px;
+    padding-right: 150px;
+    font-size: 20px;
+}
+.search-bar-img{
+    position: fixed;
+    top: 13px;
+    right: 636px;
+    height: 47px;
+    width: 47px;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+.premium-promo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-style:inset;
+    border-color: rgb(146, 146, 146);
+    border-radius: 20px;
+    border-width: 0.5px;
+    border-bottom-style: outset;
+    border-right-style: outset;
+}
+.heading{
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: rgb(231, 233, 234);
+    font-size: 32px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.promo{
+    color: white;
+    font-family: "Kanit";
+    font-weight: 300;
+    font-size: 22px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.sub-btn{
+    font-size: 24px;
+    font-family: "Kanit";
+    font-weight: 500;
+    color: white;
+    background-color: rgb(44, 124, 230);
+    border-radius: 30px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.happening , .who-to-follow{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-style: outset;
+    border-color: rgb(138, 138, 138);
+    border-radius: 20px;
+    border-width: 0.2px;
+    border-left-style: inset;
+    border-top-style: inset;
+}
+
+.happening-heading-div{
+    display: flex;
+    flex-direction: row;
+
+}
+.happening-heading{
+    font-weight: 800;
+    font-family: "Inter" , sans-serif;
+    color: rgb(231, 233, 234);
+    font-size: 32px;
+    margin: 0; 
+}
+.live-sports{
+    display: flex;
+    flex-direction: row;
+    padding-top:20px;
+    align-items: stretch;
+}
+.sports-logo{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    overflow: auto;
+}
+.sports-content{
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: stretch;
+
+}
+.sports-heading{
+    font-family: "Arial";
+    font-weight: bold;
+    margin-top: 2px;
+    font-size: 21px;
+    margin-bottom: 2px;
+}
+.sports-info{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(106, 106, 106);
+}
+.trending-container{
+    display: flex;
+    flex:1fr 1fr 1fr;
+    padding: 10px 0;
+    margin-top: 10px;
+    flex-direction: column;
+    padding-right: 50%;
+}
+.trending-container:hover{
+    background-color: rgba(11, 11, 11, 1);
+}
+.trending-header {
+    display: flex;
+    justify-content: space-between; /* Aligns the text to the left and the icon to the right */
+    font-size: 21px;
+    color: #71767b; /* Light gray color for less emphasis */
+}
+.trending-header i {
+    cursor: pointer;
+}
+.trending-topic {
+    margin-top: 5px;
+}
+
+.trending-topic strong {
+    font-size: 23px;
+    color: #d9d9d9; /* Slightly off-white color */
+}
+
+.trending-topic p {
+    font-size: 20px;
+    color: #71767b; /* Light gray color for the post count */
+    margin: 6px 0 0;
+}
+.blue{
+    color:rgb(29, 155, 240) ;
+}
+.wtf-header{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 0px;
+}
+.wtf-flex{
+    display: flex;
+    flex: 200px 1fr 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.pfp{
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+}
+.pfp-div{
+    padding-left: 10px;
+    padding-right: 14px;
+    padding-top: 7px;
+}
+.wtf-user{
+    padding-right: 80px;
+    padding-top: 0;
+    margin-top: 0px;
+}
+.wtf-user img{
+    width: 25px;
+    height: 15px;
+    margin-top: 9px;
+}
+.wtf-user-div{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 20px;
+}
+.username{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+.userid{
+    font-size: 22px;
+    font-family: "kanit";
+    font-weight: 300;
+    margin-top: 0px;
+    color: rgb(83, 80, 80);
+}
+.wtf-button-div{
+    padding-top: 8px;
+}
+.wtf-button{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: black;
+    font-family: "kanit";
+    font-size: 22px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 28px;
+    border: none;
+}
+.wtf-container:hover{
+    background-color: rgba(11, 11, 11, 1);
+}
+.username:hover{
+    text-decoration: underline;
+}
+.more{
+    color: rgb(29, 155, 240);
+    font-size: 22px;
+    font-family: Arial;
+    margin-bottom: 5px;
+}
+.more:hover{
+    text-decoration: underline;
+}
+.tos-container{
+    color: rgb(140, 138, 138);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 10px;
+   margin-bottom: px; 
+   margin-top: 15px;
+   font-family: Arial;
+}
+.tos-content{
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+.tos{
+    margin-bottom: 0px;
+    padding-right: 13px;
+}
+.tos:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
