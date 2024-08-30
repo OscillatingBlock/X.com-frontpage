@@ -16,7 +16,7 @@ This repository contains a clone of the X.com (formerly Twitter) frontpage, buil
 
 Here’s a screenshot of the X.com frontpage clone:
 
-![X.com Frontpage Clone Screenshot](path/to/your/screenshot.png)
+![X.com Frontpage Clone Screenshot](2024-08-31_00-50.png)
 
 ## Lessons Learned
 
